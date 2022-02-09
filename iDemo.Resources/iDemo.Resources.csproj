@@ -51,12 +51,16 @@
     <Content Include="Content.Jpeg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Resource Include="IconFont\demo_index.html" />
     <Content Include="Icons\checkbox.png" />
     <Content Include="Icons\Collected1.png" />
     <Content Include="Icons\Collected2.png" />
     <Content Include="Icons\dashitu.png" />
     <Content Include="Icons\Save.png" />
     <Content Include="Icons\xiaoshitu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="IconFont\iconfont.ttf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
